@@ -1,0 +1,235 @@
+[debug] [2025-07-01T15:24:31.107Z] ----------------------------------------------------------------------
+[debug] [2025-07-01T15:24:31.111Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\marro\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-07-01T15:24:31.111Z] CLI Version:   14.9.0
+[debug] [2025-07-01T15:24:31.111Z] Platform:      win32
+[debug] [2025-07-01T15:24:31.112Z] Node Version:  v22.16.0
+[debug] [2025-07-01T15:24:31.112Z] Time:          Tue Jul 01 2025 19:24:31 GMT+0400 (Gulf Standard Time)
+[debug] [2025-07-01T15:24:31.112Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-07-01T15:24:31.120Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-01T15:24:31.121Z] > authorizing via signed-in user (marroccofella@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\marro\ateroids
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-07-01T17:21:40.569Z] Checked if tokens are valid: false, expires at: 1751386598868
+[debug] [2025-07-01T17:21:40.569Z] Checked if tokens are valid: false, expires at: 1751386598868
+[debug] [2025-07-01T17:21:40.569Z] > refreshing access token with scopes: []
+[debug] [2025-07-01T17:21:40.571Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-07-01T17:21:40.571Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-07-01T17:21:40.940Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-07-01T17:21:40.940Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-07-01T17:21:40.947Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/availableProjects pageSize=100
+[debug] [2025-07-01T17:21:41.860Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/availableProjects 200
+[debug] [2025-07-01T17:21:41.861Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/availableProjects [omitted]
+[debug] [2025-07-01T17:21:50.879Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:21:50.879Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:21:50.880Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/ateroids:addFirebase [none]
+[debug] [2025-07-01T17:21:53.253Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/ateroids:addFirebase 200
+[debug] [2025-07-01T17:21:53.254Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/ateroids:addFirebase {"name":"operations/workflows/MjIxYWQ1MzEtMGZlNS00YWEyLWI2MTUtYTJiZGFhYWI0NjNi"}
+[debug] [2025-07-01T17:21:53.254Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:21:53.255Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:21:53.255Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjIxYWQ1MzEtMGZlNS00YWEyLWI2MTUtYTJiZGFhYWI0NjNi [none]
+[debug] [2025-07-01T17:21:56.725Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjIxYWQ1MzEtMGZlNS00YWEyLWI2MTUtYTJiZGFhYWI0NjNi 200
+[debug] [2025-07-01T17:21:56.725Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjIxYWQ1MzEtMGZlNS00YWEyLWI2MTUtYTJiZGFhYWI0NjNi {"name":"operations/workflows/MjIxYWQ1MzEtMGZlNS00YWEyLWI2MTUtYTJiZGFhYWI0NjNi"}
+[debug] [2025-07-01T17:21:57.233Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-07-01T17:21:57.234Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:21:57.234Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:21:57.234Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjIxYWQ1MzEtMGZlNS00YWEyLWI2MTUtYTJiZGFhYWI0NjNi [none]
+[debug] [2025-07-01T17:21:57.685Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjIxYWQ1MzEtMGZlNS00YWEyLWI2MTUtYTJiZGFhYWI0NjNi 200
+[debug] [2025-07-01T17:21:57.685Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjIxYWQ1MzEtMGZlNS00YWEyLWI2MTUtYTJiZGFhYWI0NjNi {"name":"operations/workflows/MjIxYWQ1MzEtMGZlNS00YWEyLWI2MTUtYTJiZGFhYWI0NjNi"}
+[debug] [2025-07-01T17:21:58.689Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-07-01T17:21:58.689Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:21:58.689Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:21:58.690Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjIxYWQ1MzEtMGZlNS00YWEyLWI2MTUtYTJiZGFhYWI0NjNi [none]
+[debug] [2025-07-01T17:21:59.084Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjIxYWQ1MzEtMGZlNS00YWEyLWI2MTUtYTJiZGFhYWI0NjNi 200
+[debug] [2025-07-01T17:21:59.084Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjIxYWQ1MzEtMGZlNS00YWEyLWI2MTUtYTJiZGFhYWI0NjNi {"name":"operations/workflows/MjIxYWQ1MzEtMGZlNS00YWEyLWI2MTUtYTJiZGFhYWI0NjNi"}
+[debug] [2025-07-01T17:22:01.087Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-07-01T17:22:01.088Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:22:01.088Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:22:01.088Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjIxYWQ1MzEtMGZlNS00YWEyLWI2MTUtYTJiZGFhYWI0NjNi [none]
+[debug] [2025-07-01T17:22:01.485Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjIxYWQ1MzEtMGZlNS00YWEyLWI2MTUtYTJiZGFhYWI0NjNi 200
+[debug] [2025-07-01T17:22:01.485Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjIxYWQ1MzEtMGZlNS00YWEyLWI2MTUtYTJiZGFhYWI0NjNi {"name":"operations/workflows/MjIxYWQ1MzEtMGZlNS00YWEyLWI2MTUtYTJiZGFhYWI0NjNi"}
+[debug] [2025-07-01T17:22:05.488Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-07-01T17:22:05.488Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:22:05.489Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:22:05.489Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjIxYWQ1MzEtMGZlNS00YWEyLWI2MTUtYTJiZGFhYWI0NjNi [none]
+[debug] [2025-07-01T17:22:05.962Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjIxYWQ1MzEtMGZlNS00YWEyLWI2MTUtYTJiZGFhYWI0NjNi 200
+[debug] [2025-07-01T17:22:05.962Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjIxYWQ1MzEtMGZlNS00YWEyLWI2MTUtYTJiZGFhYWI0NjNi {"name":"operations/workflows/MjIxYWQ1MzEtMGZlNS00YWEyLWI2MTUtYTJiZGFhYWI0NjNi","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.FirebaseProject","projectId":"ateroids","projectNumber":"670019502677","displayName":"ateroids","name":"projects/ateroids","resources":{"hostingSite":"ateroids"}}}
+[info] 
+[info] === Your Firebase project is ready! ===
+[info] 
+[info] Project information:
+[info]    - Project ID: ateroids
+[info]    - Project Name: ateroids
+[info] 
+[info] Firebase console is available at
+[info] https://console.firebase.google.com/project/ateroids/overview
+[info] i  Using project ateroids (ateroids) 
+[info] 
+=== Firestore Setup
+[info] i  firestore: ensuring required API firestore.googleapis.com is enabled... 
+[debug] [2025-07-01T17:22:05.969Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:22:05.969Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:22:05.969Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/ateroids/services/firestore.googleapis.com [none]
+[debug] [2025-07-01T17:22:05.970Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/ateroids/services/firestore.googleapis.com x-goog-quota-user=projects/ateroids
+[debug] [2025-07-01T17:22:07.724Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/ateroids/services/firestore.googleapis.com 200
+[debug] [2025-07-01T17:22:07.724Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/ateroids/services/firestore.googleapis.com [omitted]
+[warn] !  firestore: missing required API firestore.googleapis.com. Enabling now... 
+[debug] [2025-07-01T17:22:07.725Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:22:07.725Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:22:07.725Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/ateroids/services/firestore.googleapis.com:enable [none]
+[debug] [2025-07-01T17:22:07.725Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/ateroids/services/firestore.googleapis.com:enable x-goog-quota-user=projects/ateroids
+[debug] [2025-07-01T17:22:08.524Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/ateroids/services/firestore.googleapis.com:enable 200
+[debug] [2025-07-01T17:22:08.524Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/ateroids/services/firestore.googleapis.com:enable [omitted]
+[debug] [2025-07-01T17:22:18.539Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:22:18.539Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:22:18.539Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/ateroids/databases [none]
+[debug] [2025-07-01T17:22:19.512Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/ateroids/databases 200
+[debug] [2025-07-01T17:22:19.512Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/ateroids/databases {}
+[debug] [2025-07-01T17:22:19.512Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:22:19.512Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:22:19.512Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/ateroids/locations [none]
+[debug] [2025-07-01T17:22:19.698Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/ateroids/locations 200
+[debug] [2025-07-01T17:22:19.698Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/ateroids/locations {"locations":[{"name":"projects/ateroids/locations/eur3","labels":{"appengine.googleapis.com/geo":"europe-west","cloud.googleapis.com/location":"eur3","cloud.googleapis.com/geo":"eur3"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"eur3","displayName":"Europe"},{"name":"projects/ateroids/locations/nam5","labels":{"appengine.googleapis.com/geo":"us-central","cloud.googleapis.com/location":"nam5","cloud.googleapis.com/geo":"nam5"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"nam5","displayName":"United States"},{"name":"projects/ateroids/locations/nam7","labels":{"cloud.googleapis.com/location":"nam7","cloud.googleapis.com/geo":"nam7"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"nam7","displayName":"United States"},{"name":"projects/ateroids/locations/africa-south1","labels":{"cloud.googleapis.com/location":"africa-south1","cloud.googleapis.com/region":"africa-south1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"africa-south1","displayName":"Johannesburg"},{"name":"projects/ateroids/locations/asia-east1","labels":{"appengine.googleapis.com/region":"asia-east1","cloud.googleapis.com/location":"asia-east1","cloud.googleapis.com/region":"asia-east1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"asia-east1","displayName":"Taiwan"},{"name":"projects/ateroids/locations/asia-east2","labels":{"appengine.googleapis.com/region":"asia-east2","cloud.googleapis.com/location":"asia-east2","cloud.googleapis.com/region":"asia-east2"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"asia-east2","displayName":"Hong Kong"},{"name":"projects/ateroids/locations/asia-northeast1","labels":{"appengine.googleapis.com/region":"asia-northeast1","cloud.googleapis.com/location":"asia-northeast1","cloud.googleapis.com/region":"asia-northeast1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"asia-northeast1","displayName":"Tokyo"},{"name":"projects/ateroids/locations/asia-northeast2","labels":{"appengine.googleapis.com/region":"asia-northeast2","cloud.googleapis.com/location":"asia-northeast2","cloud.googleapis.com/region":"asia-northeast2"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"asia-northeast2","displayName":"Osaka"},{"name":"projects/ateroids/locations/asia-northeast3","labels":{"appengine.googleapis.com/region":"asia-northeast3","cloud.googleapis.com/location":"asia-northeast3","cloud.googleapis.com/region":"asia-northeast3"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"asia-northeast3","displayName":"Seoul"},{"name":"projects/ateroids/locations/asia-south1","labels":{"appengine.googleapis.com/region":"asia-south1","cloud.googleapis.com/location":"asia-south1","cloud.googleapis.com/region":"asia-south1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"asia-south1","displayName":"Mumbai"},{"name":"projects/ateroids/locations/asia-south2","labels":{"cloud.googleapis.com/location":"asia-south2","cloud.googleapis.com/region":"asia-south2"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"asia-south2","displayName":"Delhi"},{"name":"projects/ateroids/locations/asia-southeast1","labels":{"appengine.googleapis.com/region":"asia-southeast1","cloud.googleapis.com/location":"asia-southeast1","cloud.googleapis.com/region":"asia-southeast1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"asia-southeast1","displayName":"Singapore"},{"name":"projects/ateroids/locations/asia-southeast2","labels":{"appengine.googleapis.com/region":"asia-southeast2","cloud.googleapis.com/location":"asia-southeast2","cloud.googleapis.com/region":"asia-southeast2"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"asia-southeast2","displayName":"Jakarta"},{"name":"projects/ateroids/locations/australia-southeast1","labels":{"appengine.googleapis.com/region":"australia-southeast1","cloud.googleapis.com/location":"australia-southeast1","cloud.googleapis.com/region":"australia-southeast1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"australia-southeast1","displayName":"Sydney"},{"name":"projects/ateroids/locations/australia-southeast2","labels":{"cloud.googleapis.com/location":"australia-southeast2","cloud.googleapis.com/region":"australia-southeast2"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"australia-southeast2","displayName":"Melbourne"},{"name":"projects/ateroids/locations/europe-central2","labels":{"appengine.googleapis.com/region":"europe-central2","cloud.googleapis.com/location":"europe-central2","cloud.googleapis.com/region":"europe-central2"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"europe-central2","displayName":"Warsaw"},{"name":"projects/ateroids/locations/europe-north1","labels":{"cloud.googleapis.com/location":"europe-north1","cloud.googleapis.com/region":"europe-north1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"europe-north1","displayName":"Finland"},{"name":"projects/ateroids/locations/europe-north2","labels":{"cloud.googleapis.com/location":"europe-north2","cloud.googleapis.com/region":"europe-north2"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"europe-north2","displayName":"Stockholm"},{"name":"projects/ateroids/locations/europe-southwest1","labels":{"cloud.googleapis.com/location":"europe-southwest1","cloud.googleapis.com/region":"europe-southwest1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"europe-southwest1","displayName":"Madrid"},{"name":"projects/ateroids/locations/europe-west1","labels":{"cloud.googleapis.com/location":"europe-west1","cloud.googleapis.com/region":"europe-west1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"europe-west1","displayName":"Belgium"},{"name":"projects/ateroids/locations/europe-west10","labels":{"cloud.googleapis.com/location":"europe-west10","cloud.googleapis.com/region":"europe-west10"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"europe-west10","displayName":"Berlin"},{"name":"projects/ateroids/locations/europe-west12","labels":{"cloud.googleapis.com/location":"europe-west12","cloud.googleapis.com/region":"europe-west12"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"europe-west12","displayName":"Turin"},{"name":"projects/ateroids/locations/europe-west2","labels":{"appengine.googleapis.com/region":"europe-west2","cloud.googleapis.com/location":"europe-west2","cloud.googleapis.com/region":"europe-west2"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"europe-west2","displayName":"London"},{"name":"projects/ateroids/locations/europe-west3","labels":{"appengine.googleapis.com/region":"europe-west3","cloud.googleapis.com/location":"europe-west3","cloud.googleapis.com/region":"europe-west3"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"europe-west3","displayName":"Frankfurt"},{"name":"projects/ateroids/locations/europe-west4","labels":{"cloud.googleapis.com/location":"europe-west4","cloud.googleapis.com/region":"europe-west4"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"europe-west4","displayName":"Netherlands"},{"name":"projects/ateroids/locations/europe-west6","labels":{"appengine.googleapis.com/region":"europe-west6","cloud.googleapis.com/location":"europe-west6","cloud.googleapis.com/region":"europe-west6"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"europe-west6","displayName":"Zurich"},{"name":"projects/ateroids/locations/europe-west8","labels":{"cloud.googleapis.com/location":"europe-west8","cloud.googleapis.com/region":"europe-west8"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"europe-west8","displayName":"Milan"},{"name":"projects/ateroids/locations/europe-west9","labels":{"cloud.googleapis.com/location":"europe-west9","cloud.googleapis.com/region":"europe-west9"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"europe-west9","displayName":"Paris"},{"name":"projects/ateroids/locations/me-central1","labels":{"cloud.googleapis.com/location":"me-central1","cloud.googleapis.com/region":"me-central1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"me-central1","displayName":"Doha"},{"name":"projects/ateroids/locations/me-central2","labels":{"cloud.googleapis.com/location":"me-central2","cloud.googleapis.com/region":"me-central2"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"me-central2","displayName":"Dammam"},{"name":"projects/ateroids/locations/me-west1","labels":{"cloud.googleapis.com/location":"me-west1","cloud.googleapis.com/region":"me-west1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"me-west1","displayName":"Tel Aviv"},{"name":"projects/ateroids/locations/northamerica-northeast1","labels":{"appengine.googleapis.com/region":"northamerica-northeast1","cloud.googleapis.com/location":"northamerica-northeast1","cloud.googleapis.com/region":"northamerica-northeast1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"northamerica-northeast1","displayName":"Montréal"},{"name":"projects/ateroids/locations/northamerica-northeast2","labels":{"cloud.googleapis.com/location":"northamerica-northeast2","cloud.googleapis.com/region":"northamerica-northeast2"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"northamerica-northeast2","displayName":"Toronto"},{"name":"projects/ateroids/locations/northamerica-south1","labels":{"cloud.googleapis.com/location":"northamerica-south1","cloud.googleapis.com/region":"northamerica-south1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"northamerica-south1","displayName":"Mexico"},{"name":"projects/ateroids/locations/southamerica-east1","labels":{"appengine.googleapis.com/region":"southamerica-east1","cloud.googleapis.com/location":"southamerica-east1","cloud.googleapis.com/region":"southamerica-east1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"southamerica-east1","displayName":"São Paulo"},{"name":"projects/ateroids/locations/southamerica-west1","labels":{"cloud.googleapis.com/location":"southamerica-west1","cloud.googleapis.com/region":"southamerica-west1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"southamerica-west1","displayName":"Santiago"},{"name":"projects/ateroids/locations/us-central1","labels":{"cloud.googleapis.com/location":"us-central1","cloud.googleapis.com/region":"us-central1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"us-central1","displayName":"Iowa"},{"name":"projects/ateroids/locations/us-east1","labels":{"appengine.googleapis.com/region":"us-east1","cloud.googleapis.com/location":"us-east1","cloud.googleapis.com/region":"us-east1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"us-east1","displayName":"South Carolina"},{"name":"projects/ateroids/locations/us-east4","labels":{"appengine.googleapis.com/region":"us-east4","cloud.googleapis.com/location":"us-east4","cloud.googleapis.com/region":"us-east4"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"us-east4","displayName":"Northern Virginia"},{"name":"projects/ateroids/locations/us-east5","labels":{"cloud.googleapis.com/location":"us-east5","cloud.googleapis.com/region":"us-east5"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"us-east5","displayName":"Columbus"},{"name":"projects/ateroids/locations/us-south1","labels":{"cloud.googleapis.com/location":"us-south1","cloud.googleapis.com/region":"us-south1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"us-south1","displayName":"Dallas"},{"name":"projects/ateroids/locations/us-west1","labels":{"appengine.googleapis.com/region":"us-west1","cloud.googleapis.com/location":"us-west1","cloud.googleapis.com/region":"us-west1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"us-west1","displayName":"Oregon"},{"name":"projects/ateroids/locations/us-west2","labels":{"appengine.googleapis.com/region":"us-west2","cloud.googleapis.com/location":"us-west2","cloud.googleapis.com/region":"us-west2"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"us-west2","displayName":"Los Angeles"},{"name":"projects/ateroids/locations/us-west3","labels":{"appengine.googleapis.com/region":"us-west3","cloud.googleapis.com/location":"us-west3","cloud.googleapis.com/region":"us-west3"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"us-west3","displayName":"Salt Lake City"},{"name":"projects/ateroids/locations/us-west4","labels":{"appengine.googleapis.com/region":"us-west4","cloud.googleapis.com/location":"us-west4","cloud.googleapis.com/region":"us-west4"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"us-west4","displayName":"Las Vegas"},{"name":"projects/ateroids/locations/us-west8","labels":{"cloud.googleapis.com/location":"us-west8","cloud.googleapis.com/region":"us-west8"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"us-west8","displayName":"Phoenix"}]}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2025-07-01T17:28:25.569Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:28:25.569Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:28:25.569Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/ateroids/releases pageSize=10&pageToken=
+[debug] [2025-07-01T17:28:26.619Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/ateroids/releases 200
+[debug] [2025-07-01T17:28:26.620Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/ateroids/releases {}
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2025-07-01T17:28:26.625Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:28:26.625Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:28:26.625Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:28:26.625Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:28:26.626Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/ateroids/databases/(default)/collectionGroups/-/indexes [none]
+[debug] [2025-07-01T17:28:26.627Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/ateroids/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* [none]
+[debug] [2025-07-01T17:28:27.008Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/ateroids/databases/(default)/collectionGroups/-/indexes 404
+[debug] [2025-07-01T17:28:27.009Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/ateroids/databases/(default)/collectionGroups/-/indexes {"error":{"code":404,"message":"Project 'ateroids' or database '(default)' does not exist.","status":"NOT_FOUND"}}
+[info] +  Wrote firestore.rules 
+[info] +  Wrote firestore.indexes.json 
+[info] 
+=== Genkit Setup
+[debug] [2025-07-01T17:28:27.039Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/ateroids/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* 404
+[debug] [2025-07-01T17:28:27.039Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/ateroids/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* {"error":{"code":404,"message":"Project 'ateroids' or database '(default)' does not exist.","status":"NOT_FOUND"}}
+[debug] [2025-07-01T17:28:48.984Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-01T17:28:48.984Z] > authorizing via signed-in user (marroccofella@gmail.com)
+[debug] [2025-07-01T17:28:48.984Z] [iam] checking project ateroids for permissions ["firebase.projects.get"]
+[debug] [2025-07-01T17:28:48.985Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:28:48.985Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:28:48.985Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/ateroids:testIamPermissions [none]
+[debug] [2025-07-01T17:28:48.985Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/ateroids:testIamPermissions x-goog-quota-user=projects/ateroids
+[debug] [2025-07-01T17:28:48.985Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/ateroids:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-07-01T17:28:50.359Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/ateroids:testIamPermissions 200
+[debug] [2025-07-01T17:28:50.359Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/ateroids:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-07-01T17:28:50.360Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:28:50.360Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:28:50.360Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:28:50.360Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:28:50.360Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/ateroids/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-07-01T17:28:50.360Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/ateroids/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/ateroids
+[debug] [2025-07-01T17:28:50.362Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/ateroids/services/runtimeconfig.googleapis.com [none]
+[debug] [2025-07-01T17:28:50.362Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/ateroids/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/ateroids
+[debug] [2025-07-01T17:28:52.038Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/ateroids/services/runtimeconfig.googleapis.com 200
+[debug] [2025-07-01T17:28:52.039Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/ateroids/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2025-07-01T17:28:52.043Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/ateroids/services/cloudfunctions.googleapis.com 200
+[debug] [2025-07-01T17:28:52.043Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/ateroids/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-07-01T17:28:52.043Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:28:52.044Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:28:52.044Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/ateroids/services/cloudfunctions.googleapis.com:enable [none]
+[debug] [2025-07-01T17:28:52.044Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/ateroids/services/cloudfunctions.googleapis.com:enable x-goog-quota-user=projects/ateroids
+[debug] [2025-07-01T17:28:53.972Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/ateroids/services/cloudfunctions.googleapis.com:enable 200
+[debug] [2025-07-01T17:28:53.973Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/ateroids/services/cloudfunctions.googleapis.com:enable [omitted]
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[info] +  Wrote functions/package.json 
+[info] +  Wrote functions/.eslintrc.js 
+[info] +  Wrote functions/tsconfig.dev.json 
+[info] +  Wrote functions/tsconfig.json 
+[info] +  Wrote functions/src/index.ts 
+[info] +  Wrote functions/.gitignore 
+[info] 
+[info] i  genkit: Installing Genkit CLI version 1.14.0
+ 
+[info] i  genkit: Installing NPM packages for genkit 
+[info] +  genkit: Successfully installed NPM packages 
+[info] i  genkit: Updating tsconfig.json 
+[info] +  genkit: Successfully updated tsconfig.json 
+[info] i  genkit: Updating package.json 
+[info] +  genkit: Successfully updated package.json 
+[info] Telemetry data can be used to monitor and gain insights into your AI features. There may be a cost associated with using this feature. See https://firebase.google.com/docs/genkit/observability/telemetry-collection.
+[info] i  genkit: Generating sample file 
+[info] +  genkit: Successfully generated sample file (src/genkit-sample.ts) 
+[info] 
+[info] 
+Login to Google Cloud using:
+[info]     gcloud auth application-default login --project ateroids
+
+[info] Then start the Genkit developer experience by running:
+[info]     cd functions && npm run genkit:start
+[info] 
+=== Functions Setup
+[debug] [2025-07-01T17:32:59.253Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-01T17:32:59.253Z] > authorizing via signed-in user (marroccofella@gmail.com)
+[debug] [2025-07-01T17:32:59.253Z] [iam] checking project ateroids for permissions ["firebase.projects.get"]
+[debug] [2025-07-01T17:32:59.254Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:32:59.254Z] Checked if tokens are valid: true, expires at: 1751394099940
+[debug] [2025-07-01T17:32:59.254Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/ateroids:testIamPermissions [none]
+[debug] [2025-07-01T17:32:59.254Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/ateroids:testIamPermissions x-goog-quota-user=projects/ateroids
+[debug] [2025-07-01T17:32:59.254Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/ateroids:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-07-01T17:33:00.645Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/ateroids:testIamPermissions 200
+[debug] [2025-07-01T17:33:00.645Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/ateroids:testIamPermissions {"permissions":["firebase.projects.get"]}
+[info] 
+Detected existing codebase(s): default
+
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[error] functions.source must be unique but 'functions' was used more than once.
+[info] +  Wrote fncs/requirements.txt 
+[info] +  Wrote fncs/.gitignore 
+[info] +  Wrote fncs/main.py 
+[debug] [2025-07-01T17:35:11.990Z] Error: spawn python.exe ENOENT
+    at notFoundError (C:\Users\marro\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\lib\enoent.js:6:26)
+    at verifyENOENT (C:\Users\marro\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\lib\enoent.js:40:16)
+    at cp.emit (C:\Users\marro\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\lib\enoent.js:27:25)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    at Process.callbackTrampoline (node:internal/async_hooks:130:17)
+[error] 
+[error] Error: An unexpected error has occurred.
