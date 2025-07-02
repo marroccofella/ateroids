@@ -9,7 +9,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <a href="#game-container" class="skip-link">Skip to main content</a>
     <div id="game-container">
+        <div id="hud">
+            <div id="score-display" class="hud-block"></div>
+            <div id="lives-display" class="hud-block"></div>
+            <div id="high-score-display" class="hud-block"></div>
+        </div>
+        <div id="word-ui-bar">
+            <div id="letter-rack"></div>
+            <div id="words-display"></div>
+            <div id="word-score-display">Word Score: 0</div>
+        </div>
         <canvas id="gameCanvas"></canvas>
         <div id="start-screen" class="screen">
             <h1>ASTEROIDS</h1>
