@@ -34,9 +34,8 @@ Then open `http://localhost:3000`.
 ## Stack
 
 - Vanilla JavaScript + `<canvas>` — the whole game lives in `game.js`
-- Firebase scaffolding (`functions/`, `fncs/`, `firestore.rules`) is present but not
-  wired into the game; Firestore rules are locked down (`allow read, write: if false`)
-  until a leaderboard actually ships
+- Leftover Firestore config is locked down (`allow read, write: if false`); nothing
+  server-side ships until a leaderboard actually does
 
 ---
 
