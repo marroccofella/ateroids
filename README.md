@@ -19,8 +19,9 @@ gets too crowded.
 | `↑` | Thrust |
 | `Space` | Shoot |
 | `B` | Smart bomb |
+| `P` / `Escape` | Pause or resume |
 
-Touch controls appear automatically on mobile. Mute toggle in the HUD.
+On-screen controls support touch, mouse and keyboard activation. The game is silent. It pauses when the tab loses focus. The included starter dictionary contains 39 words.
 
 ## Run it
 
